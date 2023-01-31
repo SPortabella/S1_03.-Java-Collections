@@ -20,7 +20,7 @@ public class Main {
 
         HashSet<Month> hmonths = new HashSet(months);
         System.out.println("Impressió 1 amb hashSet: " + hmonths);
-        name = "GENER";
+        name = "NOVEMBRE";
         insertMonthInHash(hmonths, new Month(name));
         System.out.println("Impressió 2 amb hashSet: " + hmonths);
 
@@ -39,12 +39,8 @@ public class Main {
     }
 
     private static void insertMonthInHash(HashSet<Month> hmonths, Month month) {
-        //   No em funciona. Crec que apunten a dos possicions de memoria diferents i per això
-        //   diu que es false i sempre em fa l'add.
-        //   if (!hmonths.contains(month)) hmonths.add(month);
 
-        //   Al no funcionar-me l'opció anterior, he trobat una alternativa.
-        if (!hmonths.stream().filter(x -> x.name.equals(month.name)).findFirst().isPresent()) {
+        if (!hmonths.stream().filter(x -> x.getName().equals(month.getName())).findFirst().isPresent()) {
             hmonths.add(month);
         }
 

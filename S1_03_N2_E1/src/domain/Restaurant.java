@@ -11,8 +11,8 @@ import java.util.Objects;
 @AllArgsConstructor
 
 public class Restaurant {
-    public String name;
-    public Integer puntuacio;
+    private String name;
+    private Integer puntuacio;
 
     @Override
     public boolean equals(Object o) {

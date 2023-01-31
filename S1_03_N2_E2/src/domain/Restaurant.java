@@ -2,7 +2,6 @@ package domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Objects;
@@ -12,12 +11,8 @@ import java.util.Objects;
 @AllArgsConstructor
 
 public class Restaurant {
-    public String name;
-    public Integer puntuacio;
-
-    //public Restaurant(String name, Integer puntuacio) {
-
-    //}
+    private String name;
+    private Integer puntuacio;
 
     @Override
     public boolean equals(Object o) {

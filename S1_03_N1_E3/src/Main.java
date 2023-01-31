@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class Main {
 
-    static String PATH = "C:\\Users\\Susana\\Documents\\GitHub\\ProjectsITACADEMY\\S1\\03\\";
-    static String READ_FILE = "countries.txt";
-    static String WRITE_FILE = "classificacio.txt";
+    private static String PATH = "C:\\Users\\Susana\\Documents\\GitHub\\ProjectsITACADEMY\\S1\\03\\";
+    private static String READ_FILE = "countries.txt";
+    private static String WRITE_FILE = "classificacio.txt";
 
     public static void main(String[] args) {
 

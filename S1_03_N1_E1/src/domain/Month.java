@@ -1,7 +1,7 @@
 package domain;
 
 public class Month {
-    public String name;
+    private String name;
 
     public Month(String name) {
         this.name = name;

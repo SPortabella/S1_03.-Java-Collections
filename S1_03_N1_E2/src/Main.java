@@ -11,7 +11,6 @@ public class Main {
         integers.forEach(x -> System.out.println(integers.get(x - 1)));
 
         doReverseOrder(integers);
-
         doIterator(integers);
 
     }

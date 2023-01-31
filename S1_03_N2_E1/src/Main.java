@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
-    public static String SORTIR = "EXIT";
+    private static String SORTIR = "EXIT";
 
     public static void main(String[] args) {
         //Crea una classe anomenada Restaurant amb dos atributs: nom(String) i puntuació(int).

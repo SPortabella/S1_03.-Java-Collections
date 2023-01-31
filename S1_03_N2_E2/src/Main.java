@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class Main {
-    public static String SORTIR = "EXIT";
+    private static String SORTIR = "EXIT";
 
     public static void main(String[] args) {
         //Utilitzant la classe del programa anterior,
@@ -54,7 +54,6 @@ public class Main {
             }
         };
     }
-
 
  */
 
